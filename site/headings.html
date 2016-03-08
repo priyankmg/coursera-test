@@ -5,6 +5,41 @@
 <head>
 	<meta charset="utf-8">
 	<title>Heading example</title>
+	<style type="text/css">
+	 h1 {
+	 	color: red;
+	 	font-style: italic;
+	 }
+	 li {
+	 	color: blue;
+	 	font-size: 20px;
+	 	font-weight: bold;
+	 }
+	 .blue {
+	 	color:blue;
+	 }
+	 article, #orange {
+	 	color:orange;
+	 }
+	 p.italic {
+	 	font-style: italic;
+	 	color: red;
+	 }
+	 div.italic {
+	 	font-style:italic;
+	 	color: blue;
+	 }
+
+	 article p {
+	 	color: green;
+	 	font-weight: bold;
+	 }
+	 .blue.background {
+	 	background-color: yellow;
+	 	font-weight: bolder;
+	 	font-size: 20px;
+	 }
+	</style>
 </head>
 
 
@@ -17,6 +52,22 @@
 	<li><a href="#Section3">Section 3</a></li>
 </ul>
 
+<p class="italic">
+Wikipedia is written collaboratively by largely anonymous volunteers who write without pay. Anyone with Internet access can write and make changes to Wikipedia articles, except in limited cases where editing is restricted to prevent disruption or vandalism. Users can contribute anonymously, under a pseudonym, or, if they choose to, with their real identity.
+</p>
+
+<article>
+	<p >
+		The fundamental principles by which Wikipedia operates are the five pillars. The Wikipedia community has developed many policies and guidelines to improve the encyclopedia; however, it is not a formal requirement to be familiar with them before contributing.
+	</p>
+</article>
+
+<div class="italic">
+Since its creation in 2001, Wikipedia has grown rapidly into one of the largest reference websites, attracting 374 million unique visitors monthly as of September 2015.[1] There are about 70,000 active contributors working on more than 38,000,000 articles in 290 languages. As of today, there are 5,098,475 articles in English. Every day, hundreds of thousands of visitors from around the world collectively make tens of thousands of edits and create thousands of new articles to augment the knowledge held by the Wikipedia encyclopedia. (See the statistics page for more information.)
+
+</div>
+
+
 <section id="Section1">
 	Section 1
 	<article>Text 1</article>
@@ -25,7 +76,7 @@
 
 <section id="Section2">
 	Section 2
-	<article>Text 3</article>
+	<article id="orange">Text 3</article>
 	<article>Text 4</article>
 </section>
 
@@ -39,12 +90,9 @@
 	<a href="#Top">Back to Top</a>
 </section>
 
-<!-- 
-
--->
 
 </body>
 
-<footer>&copy All rights reserved</footer>
+<footer class="blue background">&copy All rights reserved</footer>
 
 </html>
