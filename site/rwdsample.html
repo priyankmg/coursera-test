@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>RWD Sample</title>
+	<meta charset="utf-8">
+	<style>
+	
+	/** Default size **/
+	#p1 {
+		background: blue;
+		width: 90%;
+		height: 200px;
+		border-color: black;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	/* RWD design */
+	.row {
+		width:100%;
+	}
+
+	@media (min-width: 1200px) {
+		.col-lg-25 {
+			float:left;
+			border-color: green;
+			width: 25%
+		}
+	}
+
+	@media (min-width: 992px) and (max-width: 1199px) {
+		.col-md-50 {
+			float:left;
+			border-color: green;
+			width: 50%;
+		}
+	}
+
+	@media (max-width: 991px) {
+		.col-sm-100 {
+			float:left;
+			border-color: green;
+			width:100%;
+		}
+	}
+
+
+
+	/** Large devices **/
+	@media(min-width: 1200px) {
+		#p1 {
+			width: 80%;
+		}
+	}
+
+	/** Medium devices **/
+	@media (min-width: 992px) and (max-width: 1199px) {
+		#p1 {
+			width: 60%;
+		}
+	}
+
+	</style>
+
+</head>
+<body>
+ <p id="p1">
+ </p>
+
+</body>
+</html>"

@@ -1,45 +1,83 @@
-	h1 {
-	 	color: red;
-	 	font-style: italic;
-	 }
-	 li {
-	 	color: blue;
-	 	font-size: 20px;
-	 	font-weight: bold;
-	 }
-	 .blue {
-	 	color:blue;
-	 }
-	 article, #orange {
-	 	color:orange;
-	 }
-	 p.italic:hover {
-	 	font-style: italic;
-	 	color: red;
-	 }
-	 div.italic {
-	 	font-style:italic;
-	 	color: blue;
-	 }
+body{
+ text-align: center;
+ font-family:sans-serif;
+}	
 
-	 article p {
-	 	color: green;
-	 	font-weight: bold;
-	 }
-	 .blue.background {
-	 	background-color: yellow;
-	 	font-weight: bolder;
-	 	font-size: 20px;
-	 }
-	 a:link, a:visited {
-	 	text-decoration: none;
-	 	background-color: yellow;
-	 	display:block;
-	 	width:200px;
-	 	text-align: center;
-	 	border: gray;
-	 }
-	 a:active, a:hover {
-	 	background-color: red;
-	    color: blue;
-	 }
+h1 {
+ 	color: red;
+ 	font-style: italic;
+ }
+ li {
+ 	color: blue;
+ 	font-size: 20px;
+ 	font-weight: bold;
+ }
+ .blue {
+ 	color:blue;
+ }
+ article, #orange {
+ 	color:orange;
+ }
+ p.italic:hover {
+ 	font-style: italic;
+ 	color: red;
+ }
+ div.italic {
+ 	font-style:italic;
+ 	color: blue;
+ }
+
+ article p {
+ 	color: green;
+ 	font-weight: bold;
+ }
+ .blue.background {
+ 	background-color: yellow;
+ 	font-weight: bolder;
+ 	font-size: 20px;
+ }
+ a:link, a:visited {
+ 	text-decoration: none;
+ 	background-color: yellow;
+ 	display:block;
+ 	width:200px;
+ 	text-align: center;
+ 	border: gray;
+ }
+ a:active, a:hover {
+ 	background-color: red;
+    color: blue;
+ }
+
+ #box {
+ 	box-sizing: border-box;
+ 	background-color: gray;
+ 	padding: 20px;
+ 	border-style: dotted;
+ 	border-color: yellow;
+ }
+
+#contents{
+	font-style: "italic";
+	text-align: "center"
+	color:navy;
+}
+
+#content {
+	font-style: "red";
+	text-align: "center"
+	color:red;
+}
+#float {
+	background-size: 100px 500px;
+	background-color: gray;
+	border:none;
+	float:right;
+}
+div {
+	padding-bottom: 5px;
+	background-color: yellow;
+	border-style: solid;
+	border-color: red;
+}
+

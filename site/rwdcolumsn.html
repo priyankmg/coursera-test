@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>RWD Sample</title>
+	<meta charset="utf-8">
+	<style>
+	
+	/** Default size **/
+	p {
+		background: blue;
+		width: 90%;
+		height: 200px;
+		border-color: black;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	/* RWD design */
+	.row {
+		width:100%;
+	}
+
+	@media (min-width: 1200px) {
+		.col-lg-25 {
+			float:left;
+			border-color: green;
+			width: 25%
+		}
+	}
+
+	@media (min-width: 992px) and (max-width: 1199px) {
+		.col-md-50 {
+			float:left;
+			border-color: green;
+			width: 50%;
+		}
+	}
+
+	@media (max-width: 991px) {
+		.col-sm-100 {
+			float:left;
+			border-color: green;
+			width:100%;
+		}
+	}
+	</style>
+
+</head>
+<body>
+
+	<div class="row">
+		<div class="col-lg-25 col-md-50 col-sm-100"><p>text</p></div>
+		<div class="col-lg-25 col-md-50 col-sm-100"><p>text</p></div>
+		<div class="col-lg-25 col-md-50 col-sm-100"><p>text</p></div>
+		<div class="col-lg-25 col-md-50 col-sm-100"><p>text</p></div>
+	</div>
+
+
+</body>
+</html>"
